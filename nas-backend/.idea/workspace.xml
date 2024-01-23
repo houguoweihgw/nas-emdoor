@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6177bc83-1d84-4413-8bf2-0641ca589802" name="Changes" comment="修改查询相册/收藏/回收站返回元数据">
+      <change afterPath="$PROJECT_DIR$/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5/storage_v2/_src_/schema/AIblum.iuQdcw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f4ab6082-bdfd-47b6-be76-ce2c1d0b0ce5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/ailbum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2023-10-10 10-49-45屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2023-10-10 10-50-29屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/3311b20cf543bb567b2e862df0308e9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/IMG_5795.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/10f79a4df54602b3dd7ce3738cea48e9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/141b20ec5a8319484565890fce39c42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/14940888bf209b8698bb7786ec67641.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/2023-10-10 10-49-45屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/2023-10-10 10-50-29屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/2023-10-16 19-38-00屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/29fb874caa641ad8b14a5887e7b1af4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/2e8211ac380358b4deae165828b908c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/32f45a208b5ca90b00acbc9fd5a1a84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/391e20f3dd5235c8b2bd59b729e7430.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/510398485d08ea9b9a89cff705eb984.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/5428a75129c24aa2fca09928ba2232c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/5669fb3075848ea16a2b47d5bd035ec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/5c44999772034af1bffce9b8988814d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/693185481bc168b10067823b8cb42cd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/6d13ec8b1b8680b19cae7320b974e7f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/7ec782e50c8425f008e479489ff76d6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/83479b1c62f54194a69d5f8ae68e261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/86b717d0f7e406c139129d0f430d4ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/9010a7250c77ea5e7deed86b1d1d307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/9316ca06963c8e361c0d52d8c195a2d6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/9c01dc096d0ced298c0f348571e7fde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Aaron_Peirsol_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Aaron_Peirsol_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Aaron_Peirsol_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Aaron_Peirsol_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Ben_Howland_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Ben_Howland_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Ben_Howland_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Ben_Howland_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Cindy_Crawford_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Cindy_Crawford_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Larry_Thompson_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Larry_Thompson_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/Larry_Thompson_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/a383bf4287bb75efd997437e17b3618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/ab85a6dea1b187405ce427d20507bab1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/ac2bdee72db4c4e5bd44624dc0e4d08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/admin/IMG_5795.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/admin/喜欢2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/bc363b9b0acf743cafa90fe77bde79a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/d652dbd9f491e8a27ca063eb83fc0a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/d6d8f57967c6c7b1e138091f1d226a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/d8748a071273230a8106294a2433392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/e1e92e60e8cbc1ad5a75529c3734648.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/ebf4dbe3e6df8c606c9ce6cb788bd965.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/f61319cc5d3a9b3e782627276e37301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/f7d2e30690ce4173edf0430ae79c79a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/f9b12b7093b758d7d857ae8212fde62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/guest2/IMG_5632.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/guest2/IMG_5677.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/guest2/IMG_5763.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/guest2/IMG_5795.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/test/2023-10-16 19-38-00屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/test/IMG_5632.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/test/IMG_5677.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/test/IMG_5763.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/test/IMG_5795.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/zhou/2023-10-16 19-38-00屏幕截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/zhou/IMG_5795.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/喜欢2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/微信图片_20230824170957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/items/微信图片_20230824171002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/album.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/album_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/item.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/item_album.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/item_album_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/item_metadata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/item_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/albumService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/photoService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/userService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/database_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/jwtutil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/jwtutil_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/pictureUtils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/pictureUtils_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/redisUtils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/redisUtils_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Aaron_Peirsol_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Aaron_Peirsol_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Aaron_Peirsol_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Aaron_Peirsol_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Ben_Howland_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Ben_Howland_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Ben_Howland_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Ben_Howland_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Cindy_Crawford_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Cindy_Crawford_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Larry_Thompson_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Larry_Thompson_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/albums/Larry_Thompson_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/collected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/notCollected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/notSelected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/assets/selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/components/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/components/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/about/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/aiAlbum/aiAlbum.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/albums/albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/albums/albums.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/collect/collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/collect/collect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/photos/photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/photos/photos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/register/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/register/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/search/search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/upload/upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/src/views/welcome/welcome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nas-fronted/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scripts/sql/mysql-init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/#ib_16384_1.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/#ib_16384_1.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/b4daf81b6d50.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/binlog.000001" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/binlog.000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/binlog.000003" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/binlog.000003" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ca-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ca-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ca.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ca.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/client-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/client-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/client-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/client-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ib_logfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/server-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/server-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/server-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/server-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../database/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/redis/data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/../database/redis/data/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d55f9c19-1309-4676-aa1a-354d2ba8ace3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d55f9c19-1309-4676-aa1a-354d2ba8ace3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nas-backend.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Wvij6s118jekjwVI1y81wZ3mE4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/houguowei/nas-emdoor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redshift",
+      "redis",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build nas-backend/cmd">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build nas-backend" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/../ailbum-emdoor|$PROJECT_DIR$/cmd/ailbum.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build nas-backend/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="nas-backend/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/ailbum.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDBAutoMigrate in ailbum-emdoor/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ailbum-emdoor/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestDBAutoMigrate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParLatitudeAndLongitudeTo in ailbum-emdoor/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ailbum-emdoor/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParLatitudeAndLongitudeTo\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParsePictureExif in ailbum-emdoor/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ailbum-emdoor/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParsePictureExif\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParsePictureMetadata in ailbum-emdoor/utils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ailbum-emdoor/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestParsePictureMetadata\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="nas-backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build nas-backend" />
+      <item itemvalue="Go Build.go build nas-backend/cmd" />
+      <item itemvalue="Go Test.TestDBAutoMigrate in ailbum-emdoor/utils" />
+      <item itemvalue="Go Test.TestParLatitudeAndLongitudeTo in ailbum-emdoor/utils" />
+      <item itemvalue="Go Test.TestParsePictureExif in ailbum-emdoor/utils" />
+      <item itemvalue="Go Test.TestParsePictureMetadata in ailbum-emdoor/utils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build nas-backend/cmd" />
+        <item itemvalue="Go Test.TestParsePictureExif in ailbum-emdoor/utils" />
+        <item itemvalue="Go Test.TestParLatitudeAndLongitudeTo in ailbum-emdoor/utils" />
+        <item itemvalue="Go Test.TestDBAutoMigrate in ailbum-emdoor/utils" />
+        <item itemvalue="Go Test.TestParsePictureMetadata in ailbum-emdoor/utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="照片分页查询，照片缓存" />
+    <MESSAGE value="调整相册和照片的关系为多对多，新建了item_album表作为映射的中间表，顺便调整了相关接口" />
+    <MESSAGE value="实现解析照片Exif元数据方法，创建item_metadata表和对应的gorm model" />
+    <MESSAGE value="实现用户上传时照片元数据的解析;给item_metadata表增加一个标签字段用于AI场景分类;" />
+    <MESSAGE value="添加照片元数据解析时经纬度符号的判断" />
+    <MESSAGE value="修改查询相册/收藏/回收站返回元数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改查询相册/收藏/回收站返回元数据" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/photoService.go</url>
+          <line>540</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/pictureUtils.go</url>
+          <line>116</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

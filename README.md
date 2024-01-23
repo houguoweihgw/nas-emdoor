@@ -15,9 +15,9 @@
     3.数据库使用Mysql+Redis，Mysql用于存储用户信息，Redis用于存储用户登录状态和一些缓存数据
     4.AI算法使用Python+PyTorch
     整体框架图如下图所示：
-    其中安卓移动端地址为：https://github.com/houguoweihgw/YiSpace
+    
 ![框架.png](%E6%A1%86%E6%9E%B6.png)
-
+其中安卓移动端地址为：https://github.com/houguoweihgw/YiSpace
 ## 系统功能：
 
     1.用户注册，登录
